@@ -24,10 +24,6 @@ raiz_Cubica = pow(numero_2,1/3)
 
 
 
-
-
-
-
 #SALIDA DE DATOS 
 print("LA SUMA ES =", suma)
 print("lA SUMA ES = " + str(suma))
@@ -39,9 +35,9 @@ print("la potencia es ", potencia)
 print("El cuadrado es", cuadrado)
 print("EL CUBO ES: ", cubo)
 
-print("La raiz cuadrada", {round(raiz_cuadrada1,2)})
-print("La raiz cuadrada2", {round(raiz_cuadrada1,2)})
-print("La raiz cuadrada", {round(raiz_Cubica,3)})
+print("La raiz cuadrada", round(raiz_cuadrada1,2))
+print("La raiz cuadrada2", round(raiz_cuadrada2,2))
+print("La raiz cuadrada", round(raiz_Cubica,3))
 
 
 
